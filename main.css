@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+ --main-color:green;
+ --grey:rgba(128, 128, 128, 0.9);
+ 
+}
+
+.parentdiv{
+border: 2px solid green;
+}
+
+.childiv{
+   border: 2px solid lightgrey;
+   margin-top: 700px;
+   display: flex;
+   justify-content: center;
+   background: lightgray;
+}
+
+h3{
+    border: 2px solid var(--grey);
+    background: var(--grey);
+}
+
+
